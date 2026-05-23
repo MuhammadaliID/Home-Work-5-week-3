@@ -12,8 +12,12 @@
     --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-white: #fff;
     --spacing: 0.25rem;
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
+    --text-4xl: 2.25rem;
+    --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
     --font-weight-bold: 700;
@@ -202,6 +206,9 @@
   .my-\[50px\] {
     margin-block: 50px;
   }
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
@@ -316,6 +323,9 @@
   .table {
     display: table;
   }
+  .h-6 {
+    height: calc(var(--spacing) * 6);
+  }
   .h-7 {
     height: calc(var(--spacing) * 7);
   }
@@ -343,11 +353,17 @@
   .h-full {
     height: 100%;
   }
+  .w-6 {
+    width: calc(var(--spacing) * 6);
+  }
   .w-7 {
     width: calc(var(--spacing) * 7);
   }
   .w-\[4px\] {
     width: 4px;
+  }
+  .w-\[40\%\] {
+    width: 40%;
   }
   .w-\[45\%\] {
     width: 45%;
@@ -403,6 +419,9 @@
   .w-\[px\] {
     width: px;
   }
+  .max-w-\[1200px\] {
+    max-width: 1200px;
+  }
   .max-w-\[1400px\] {
     max-width: 1400px;
   }
@@ -452,6 +471,9 @@
   .justify-start {
     justify-content: flex-start;
   }
+  .gap-16 {
+    gap: calc(var(--spacing) * 16);
+  }
   .gap-20 {
     gap: calc(var(--spacing) * 20);
   }
@@ -499,6 +521,12 @@
   }
   .gap-y-\[100px\] {
     row-gap: 100px;
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  .overflow-x-hidden {
+    overflow-x: hidden;
   }
   .rounded-3xl {
     border-radius: var(--radius-3xl);
@@ -556,6 +584,9 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .p-8 {
+    padding: calc(var(--spacing) * 8);
+  }
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
@@ -577,9 +608,17 @@
   .text-right {
     text-align: right;
   }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
   .text-5xl {
     font-size: var(--text-5xl);
@@ -614,6 +653,10 @@
   }
   .text-\[500px\] {
     font-size: 500px;
+  }
+  .leading-\[45px\] {
+    --tw-leading: 45px;
+    line-height: 45px;
   }
   .leading-\[55px\] {
     --tw-leading: 55px;
