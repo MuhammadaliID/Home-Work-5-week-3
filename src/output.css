@@ -162,6 +162,18 @@
   }
 }
 @layer utilities {
+  .absolute {
+    position: absolute;
+  }
+  .my-\[50px\] {
+    margin-block: 50px;
+  }
+  .mt-\[-20px\] {
+    margin-top: -20px;
+  }
+  .mt-\[-50px\] {
+    margin-top: -50px;
+  }
   .mt-\[-100px\] {
     margin-top: -100px;
   }
@@ -177,6 +189,12 @@
   .mt-\[-200px\] {
     margin-top: -200px;
   }
+  .mt-\[-220px\] {
+    margin-top: -220px;
+  }
+  .mt-\[-250px\] {
+    margin-top: -250px;
+  }
   .mt-\[-400px\] {
     margin-top: -400px;
   }
@@ -189,17 +207,41 @@
   .mt-\[-\] {
     margin-top: -;
   }
+  .mt-\[0px\] {
+    margin-top: 0px;
+  }
+  .mt-\[10px\] {
+    margin-top: 10px;
+  }
+  .mt-\[15px\] {
+    margin-top: 15px;
+  }
   .mt-\[20px\] {
     margin-top: 20px;
   }
+  .mt-\[30px\] {
+    margin-top: 30px;
+  }
   .mt-\[40px\] {
     margin-top: 40px;
+  }
+  .mt-\[50px\] {
+    margin-top: 50px;
+  }
+  .mt-\[80px\] {
+    margin-top: 80px;
   }
   .mt-\[100px\] {
     margin-top: 100px;
   }
   .mt-\[150px\] {
     margin-top: 150px;
+  }
+  .mt-\[px\] {
+    margin-top: px;
+  }
+  .ml-\[50px\] {
+    margin-left: 50px;
   }
   .ml-\[100px\] {
     margin-left: 100px;
@@ -222,6 +264,21 @@
   .table {
     display: table;
   }
+  .h-\[200px\] {
+    height: 200px;
+  }
+  .h-\[250px\] {
+    height: 250px;
+  }
+  .h-\[270px\] {
+    height: 270px;
+  }
+  .h-\[275px\] {
+    height: 275px;
+  }
+  .h-\[300px\] {
+    height: 300px;
+  }
   .h-\[500px\] {
     height: 500px;
   }
@@ -234,6 +291,12 @@
   .w-\[100px\] {
     width: 100px;
   }
+  .w-\[120px\] {
+    width: 120px;
+  }
+  .w-\[130px\] {
+    width: 130px;
+  }
   .w-\[150px\] {
     width: 150px;
   }
@@ -243,8 +306,32 @@
   .w-\[250px\] {
     width: 250px;
   }
+  .w-\[300px\] {
+    width: 300px;
+  }
   .w-\[400px\] {
     width: 400px;
+  }
+  .w-\[500px\] {
+    width: 500px;
+  }
+  .w-\[600px\] {
+    width: 600px;
+  }
+  .w-\[700px\] {
+    width: 700px;
+  }
+  .w-\[750px\] {
+    width: 750px;
+  }
+  .w-\[795px\] {
+    width: 795px;
+  }
+  .w-\[800px\] {
+    width: 800px;
+  }
+  .w-\[px\] {
+    width: px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -254,6 +341,12 @@
   }
   .flex-col {
     flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .items-baseline-last {
+    align-items: last baseline;
   }
   .items-center {
     align-items: center;
@@ -267,8 +360,29 @@
   .gap-\[10px\] {
     gap: 10px;
   }
+  .gap-\[20px\] {
+    gap: 20px;
+  }
+  .gap-\[30px\] {
+    gap: 30px;
+  }
   .gap-\[50px\] {
     gap: 50px;
+  }
+  .gap-\[100px\] {
+    gap: 100px;
+  }
+  .gap-y-\[0px\] {
+    row-gap: 0px;
+  }
+  .gap-y-\[10px\] {
+    row-gap: 10px;
+  }
+  .gap-y-\[15p\] {
+    row-gap: 15p;
+  }
+  .gap-y-\[15px\] {
+    row-gap: 15px;
   }
   .gap-y-\[20px\] {
     row-gap: 20px;
@@ -276,8 +390,17 @@
   .gap-y-\[25px\] {
     row-gap: 25px;
   }
+  .gap-y-\[60px\] {
+    row-gap: 60px;
+  }
+  .gap-y-\[100px\] {
+    row-gap: 100px;
+  }
   .rounded-\[10px\] {
     border-radius: 10px;
+  }
+  .rounded-\[20px\] {
+    border-radius: 20px;
   }
   .border {
     border-style: var(--tw-border-style);
@@ -286,8 +409,26 @@
   .bg-\[\#1F30D8\] {
     background-color: #1F30D8;
   }
+  .bg-\[\#2D2D2D\] {
+    background-color: #2D2D2D;
+  }
+  .bg-\[\#0018FF\] {
+    background-color: #0018FF;
+  }
   .bg-\[\#201D1DCC\] {
     background-color: #201D1DCC;
+  }
+  .bg-\[\#212121\] {
+    background-color: #212121;
+  }
+  .bg-\[blue\] {
+    background-color: blue;
+  }
+  .bg-\[nlue\] {
+    background-color: nlue;
+  }
+  .bg-\[white\] {
+    background-color: white;
   }
   .p-\[5px\] {
     padding: 5px;
@@ -298,14 +439,23 @@
   .p-\[20px\] {
     padding: 20px;
   }
+  .pl-\[50px\] {
+    padding-left: 50px;
+  }
   .text-center {
     text-align: center;
+  }
+  .text-\[20px\] {
+    font-size: 20px;
   }
   .text-\[25px\] {
     font-size: 25px;
   }
   .text-\[30px\] {
     font-size: 30px;
+  }
+  .text-\[35px\] {
+    font-size: 35px;
   }
   .text-\[40px\] {
     font-size: 40px;
@@ -336,11 +486,23 @@
   .text-\[30\] {
     color: 30;
   }
+  .text-\[blue\] {
+    color: blue;
+  }
+  .text-\[ga\] {
+    color: ga;
+  }
+  .text-\[gar\] {
+    color: gar;
+  }
   .text-\[gray\] {
     color: gray;
   }
   .text-\[gtay\] {
     color: gtay;
+  }
+  .text-\[wh\] {
+    color: wh;
   }
   .text-\[white\] {
     color: white;
